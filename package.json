@@ -1,5 +1,5 @@
 {
-  "name": "remove-stop-words",
+  "name": "@purnomo_eko/remove-stop-words",
   "version": "0.0.1",
   "description": "Remove stop words from search query",
   "main": "index.js",
