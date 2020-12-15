@@ -1,10 +1,10 @@
 {
-  "name": "english-stop-words",
+  "name": "remove-stop-words",
   "version": "0.0.1",
   "description": "Remove stop words from search query",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha index.test.js"
   },
   "repository": {
     "type": "git",

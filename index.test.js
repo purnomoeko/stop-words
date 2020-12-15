@@ -4,7 +4,7 @@ const getNoneStopWords = require('./index');
 
 describe('Testing some sentences with stop words', () => {
     it('should return array from the result', () => {
-        const result = getNoneStopWords('I want to go to market', 'en');
+        const result = getNoneStopWords('I want to have relationship with different religion', 'en');
         chai.assert(typeof result, 'object');
         chai.assert.isAbove(result.length, 0);
     });
