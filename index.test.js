@@ -7,6 +7,9 @@ describe('Testing some sentences with stop words', () => {
         const result = getNoneStopWords('I want to have relationship with different religion', 'en');
         chai.assert(typeof result, 'object');
         chai.assert.isAbove(result.length, 0);
+        chai.assert.isAbove(result.indexOf('relationship'), -1);
+        chai.assert.isAbove(result.indexOf('different'), -1);
+        chai.assert.isAbove(result.indexOf('religion'), -1);
     });
     it('throw exception when language not available', () => {
         try {

@@ -15,11 +15,11 @@ const getNoneStopWords = (sentence, language = 'en') => {
         uncommonArr = [],
         word, i;
 
-    for (i = 0; i < commonWords.length; i++) {
+    for (let i = 0; i < commonWords.length; i++) {
         commonObj[commonWords[i].trim()] = true;
     }
 
-    for (i = 0; i < wordArr.length; i++) {
+    for (let i = 0; i < wordArr.length; i++) {
         word = wordArr[i].trim().toLowerCase();
         if (!commonObj[word]) {
             uncommonArr.push(word);
