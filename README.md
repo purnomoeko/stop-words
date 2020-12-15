@@ -6,7 +6,7 @@ Remove stop words from search query to improve search query result.
 The stop words stored in array, and it will remove every words that listed in those array:
 
 ```
-const removeStopWords = require('remove-stop-words');
+const removeStopWords = require('@purnomo_eko/remove-stop-words');
 
 removeStopWords('I want to have relationship with different religion', 'en');
 
