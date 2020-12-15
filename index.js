@@ -10,7 +10,7 @@ const getNoneStopWords = (sentence, language = 'en') => {
     if (language === 'en') {
         commonWords = englishWords;
     }
-    let wordArr = sentence.match(/\w+/g),
+    let wordArr = sentence.toLowerCase().match(/\w+/g),
         commonObj = {},
         uncommonArr = [],
         word, i;
