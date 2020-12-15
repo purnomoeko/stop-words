@@ -1,0 +1,28 @@
+{
+  "name": "english-stop-words",
+  "version": "0.0.1",
+  "description": "Remove stop words from search query",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/purnomoeko/stop-words.git"
+  },
+  "keywords": [
+    "stop-words",
+    "english",
+    "search-query"
+  ],
+  "author": "eko.purnomo@icloud.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purnomoeko/stop-words/issues"
+  },
+  "homepage": "https://github.com/purnomoeko/stop-words#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
